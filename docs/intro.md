@@ -47,4 +47,5 @@ The `npm run start` command builds your website locally and serves it through a 
 Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
 
 试试中文
-牛逼，自动部署了
+牛逼，自动部署了。失败了
+试试别人只推到dev，主人才合并到main
