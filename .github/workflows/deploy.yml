@@ -3,13 +3,13 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # 或者你的默认分支名
+      - main  # 或者你使用的主分支
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup Node.js
@@ -20,13 +20,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build
+      - name: Build website
         run: npm run build
 
-      - name: Deploy
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          npm run deploy
+      - name: Deploy website
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_USER: your-github-username
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}  # 使用你自定义的 PAT
+        run: npm run deploy
