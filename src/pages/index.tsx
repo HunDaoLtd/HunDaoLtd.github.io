@@ -45,6 +45,7 @@ import { Redirect } from '@docusaurus/router';
 //   );
 // }
 
+// 首页在这里修改
 export default function Home() {
-  return <Redirect to="/docs/intro" />;
+  return <Redirect to="/docs/category/hunnft---白皮书" />;
 }
