@@ -75,9 +75,9 @@ const config: Config = {
       // title: '主页',
       logo: {
         alt: 'Hun DAO Logo',
-        src: 'img/魂道.中国.svg',  // ✅ SVG 是首选格式，因为它不会失真，并且在任意分辨率下都能保持清晰
-        width: 172,  // ✅ 设置宽度
-        height: 28,  // ✅ 设置高度 会被默认32
+        src: 'img/整合logo.svg',  // ✅ SVG 是首选格式，因为它不会失真，并且在任意分辨率下都能保持清晰
+        // width: 200,  // ✅ 设置宽度
+        // height: 32,  // ✅ 设置高度 会被默认32
         href: 'https://hundao.xyz',  // ✅ 点击跳转到魂道官网
       },
       items: [
