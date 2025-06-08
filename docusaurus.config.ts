@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.svg',
 
   // Set the production url of your site here
   url: 'https://docs.hundao.xyz',
@@ -75,7 +75,7 @@ const config: Config = {
       // title: '主页',
       logo: {
         alt: 'Hun DAO Logo',
-        src: 'img/整合logo.svg',  // ✅ SVG 是首选格式，因为它不会失真，并且在任意分辨率下都能保持清晰
+        src: 'img/整合logo2.svg',  // ✅ SVG 是首选格式，因为它不会失真，并且在任意分辨率下都能保持清晰
         // width: 200,  // ✅ 设置宽度
         // height: 32,  // ✅ 设置高度 会被默认32
         href: 'https://hundao.xyz',  // ✅ 点击跳转到魂道官网
