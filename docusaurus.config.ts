@@ -66,6 +66,15 @@ const config: Config = {
         },
       } satisfies Preset.Options,
     ],
+    [
+      '@docusaurus/preset-classic',
+      {
+        gtag: {
+          trackingID: 'G-D215MR0V81',
+          anonymizeIP: true,
+        },
+      },
+    ],
   ],
 
   themeConfig: {
@@ -85,9 +94,9 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Docs',
+          label: '文档',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: '博客', position: 'left'},
         {
           href: 'https://github.com/HunDaoLtd/HunDaoLtd.github.io',
           label: 'GitHub',
