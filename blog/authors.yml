@@ -8,6 +8,36 @@ ZE:
     x: dikpoorcat
     github: dikpoorcat
 
+zpf:
+  name: 宗博
+  title: 游戏策划 @ Hun
+  url: https://github.com/wszpfwszpf
+  image_url: https://github.com/wszpfwszpf.png
+  page: true
+  socials:
+    x: wszpfwszpf
+    github: wszpfwszpf
+
+lhb:
+  name: 吕老逼
+  title: 经济大师 @ Hun
+  url: https://github.com/koukouD
+  image_url: https://github.com/koukouD.png
+  page: true
+  socials:
+    x: koukouD
+    github: koukouD
+
+dxz:
+  name: 杜晓瞻
+  title: 后端 @ Hun
+  url: https://github.com/dxzzxb
+  image_url: https://github.com/dxzzxb.png
+  page: true
+  socials:
+    x: dxzzxb
+    github: dxzzxb
+
 
 # yangshun:
 #   name: Yangshun Tay

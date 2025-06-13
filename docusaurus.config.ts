@@ -83,7 +83,7 @@ const config: Config = {
         srcDark: 'img/logo-dark.svg', // 深色模式 Logo
         // width: 200,  // ✅ 设置宽度
         // height: 32,  // ✅ 设置高度 会被默认32
-        href: 'https://hundao.xyz',  // ✅ 点击跳转到魂道官网
+        href: 'https://hun.hundao.xyz',  // ✅ 点击跳转到链游官网
       },
       items: [
         {
