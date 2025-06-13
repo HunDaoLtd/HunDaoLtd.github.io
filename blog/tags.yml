@@ -1,19 +1,24 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+hun:
+  label: Hun
+  permalink: /hun
+  description: Hun 是一款区块链游戏， 也是其中 NFT 的名称
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+# facebook:
+#   label: Facebook
+#   permalink: /facebook
+#   description: Facebook tag description
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+# hello:
+#   label: Hello
+#   permalink: /hello
+#   description: Hello tag description
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+# docusaurus:
+#   label: Docusaurus
+#   permalink: /docusaurus
+#   description: Docusaurus tag description
+
+# hola:
+#   label: Hola
+#   permalink: /hola
+#   description: Hola tag description

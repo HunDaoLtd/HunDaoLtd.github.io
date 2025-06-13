@@ -35,7 +35,7 @@ const config: Config = {
 
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       {
         docs: {
           sidebarPath: './sidebars.ts',
@@ -64,16 +64,11 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
-      } satisfies Preset.Options,
-    ],
-    [
-      '@docusaurus/preset-classic',
-      {
         gtag: {
           trackingID: 'G-D215MR0V81',
           anonymizeIP: true,
         },
-      },
+      } satisfies Preset.Options,
     ],
   ],
 
@@ -84,7 +79,8 @@ const config: Config = {
       // title: '主页',
       logo: {
         alt: 'Hun DAO Logo',
-        src: 'img/整合logo2.svg',  // ✅ SVG 是首选格式，因为它不会失真，并且在任意分辨率下都能保持清晰
+        src: 'img/Logo.svg',  // ✅ SVG 是首选格式，因为它不会失真，并且在任意分辨率下都能保持清晰
+        srcDark: 'img/logo-dark.svg', // 深色模式 Logo
         // width: 200,  // ✅ 设置宽度
         // height: 32,  // ✅ 设置高度 会被默认32
         href: 'https://hundao.xyz',  // ✅ 点击跳转到魂道官网
@@ -98,10 +94,15 @@ const config: Config = {
         },
         {to: '/blog', label: '博客', position: 'left'},
         {
-          href: 'https://github.com/HunDaoLtd/HunDaoLtd.github.io',
-          label: 'GitHub',
+          href: 'https://hun.hundao.xyz/overview',
+          label: '仪表板',
           position: 'right',
         },
+        // {
+        //   href: 'https://github.com/HunDaoLtd/HunDaoLtd.github.io',
+        //   label: 'GitHub',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {
