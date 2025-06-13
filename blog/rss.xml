@@ -4,84 +4,34 @@
         <title>Hun 白皮书 Blog</title>
         <link>https://docs.hundao.xyz/blog</link>
         <description>Hun 白皮书 Blog</description>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
         <item>
-            <title><![CDATA[Welcome]]></title>
-            <link>https://docs.hundao.xyz/blog/welcome</link>
-            <guid>https://docs.hundao.xyz/blog/welcome</guid>
-            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
-            <content:encoded><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p>
-<p>Here are a few tips you might find useful.</p>
-<p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p>
-<p>Regular blog authors can be added to <code>authors.yml</code>.</p>
-<p>The blog post date can be extracted from filenames, such as:</p>
-<ul>
-<li><code>2019-05-30-welcome.md</code></li>
-<li><code>2019-05-30-welcome/index.md</code></li>
-</ul>
-<p>A blog post folder can be convenient to co-locate blog post images:</p>
-<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://docs.hundao.xyz/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
-<p>The blog supports tags as well!</p>
-<p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content:encoded>
-            <category>Facebook</category>
-            <category>Hello</category>
-            <category>Docusaurus</category>
-        </item>
-        <item>
-            <title><![CDATA[MDX Blog Post]]></title>
-            <link>https://docs.hundao.xyz/blog/mdx-blog-post</link>
-            <guid>https://docs.hundao.xyz/blog/mdx-blog-post</guid>
-            <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></description>
-            <content:encoded><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p>
-<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>提示</div><div class="admonitionContent_BuS1"><p>Use the power of React to create interactive blog posts.</p></div></div>
-<!-- -->
-<p>For example, use JSX to create an interactive button:</p>
-<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre></div></div>
-<button>Click me!</button>]]></content:encoded>
-            <category>Docusaurus</category>
-        </item>
-        <item>
-            <title><![CDATA[Long Blog Post]]></title>
-            <link>https://docs.hundao.xyz/blog/long-blog-post</link>
-            <guid>https://docs.hundao.xyz/blog/long-blog-post</guid>
-            <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[This is the summary of a very long blog post,]]></description>
-            <content:encoded><![CDATA[<p>This is the summary of a very long blog post,</p>
-<p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
-            <category>Hello</category>
-            <category>Docusaurus</category>
-        </item>
-        <item>
-            <title><![CDATA[First Blog Post]]></title>
-            <link>https://docs.hundao.xyz/blog/first-blog-post</link>
-            <guid>https://docs.hundao.xyz/blog/first-blog-post</guid>
-            <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Lorem ipsum dolor sit amet...]]></description>
-            <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
-<p>...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
-            <category>Hola</category>
-            <category>Docusaurus</category>
+            <title><![CDATA[为什么做这个链游]]></title>
+            <link>https://docs.hundao.xyz/blog/why-hun</link>
+            <guid>https://docs.hundao.xyz/blog/why-hun</guid>
+            <pubDate>Fri, 13 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[总的来说，我觉得这件事非常有趣。]]></description>
+            <content:encoded><![CDATA[<p>总的来说，我觉得这件事非常有趣。</p>
+<p>不仅因为我想制作一个自己喜欢的培育和养成游戏，更因为我能够构建一个新奇的、只涨不跌的经济系统，以及一个神奇的自动版税机制，这让我感到振奋。我希望能够尝试搭建一个真正具有经济正外部性的体系。我期待着理想中的链游崛起，推动一点点进步。此外，我也想探索链下玩法，设计一个离线PVP的休闲游戏，给自己过过瘾。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="缘起">缘起<a href="https://docs.hundao.xyz/blog/why-hun#%E7%BC%98%E8%B5%B7" class="hash-link" aria-label="缘起的直接链接" title="缘起的直接链接">​</a></h3>
+<p>2020年，我开始玩 Axie 链游，一下子就喜欢上了它的培育玩法。相比之下，链下部分的战斗游戏就显得很无趣。在这款游戏里，培育出特定技能组合的怪物并不容易，但一旦实现自己的设想，那种满足感难以用言语形容。</p>
+<p>后来，我玩过一款做得很差劲的链游，名字就不说了。当时我心想，这么烂的游戏都有人玩，还能赚不少钱，做链游似乎挺容易，我上我也行啊。从那时起，做链游的念头开始萌发。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="模型与生态">模型与生态<a href="https://docs.hundao.xyz/blog/why-hun#%E6%A8%A1%E5%9E%8B%E4%B8%8E%E7%94%9F%E6%80%81" class="hash-link" aria-label="模型与生态的直接链接" title="模型与生态的直接链接">​</a></h3>
+<p>之后，我和朋友们有了很多新奇的想法，开始有些跃跃欲试。其实，我对做游戏本身兴趣不大，但对设计经济模型、生态系统和去中心化社区很感兴趣。比如，游戏的玩法、功能和技能设计等，都可以交给社区来完成和选择。玩家的创意是无限的，大家能想出很多有趣的点子。</p>
+<p>这样，我们可以共同打造全新的生态系统，探索更合理、更良心的经济模式，而不是像很多链游那样搞庞氏骗局、只知道圈钱，甚至给WEB3带来负面影响。构建这样的系统既有趣又有成就感。而且，作为平台方还能轻松获得抽成收益。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="链下玩法">链下玩法<a href="https://docs.hundao.xyz/blog/why-hun#%E9%93%BE%E4%B8%8B%E7%8E%A9%E6%B3%95" class="hash-link" aria-label="链下玩法的直接链接" title="链下玩法的直接链接">​</a></h3>
+<p>另外，我想做这个链游，还因为我喜欢离线PVP游戏模式。像《海岛奇兵》，不用和其他玩家同时在线，想玩的时候随时能玩几局，每局只需三五分钟，很轻松，既休闲又有策略性。《海岛奇兵》开月卡后可玩性不错，但不开月卡可玩性就大大降低，最终由于月卡太贵，不知不觉就没人陪我玩了。</p>
+<p>所以我想自己做一款类似的线下玩法，如果能有良好的可玩性，吸引玩家一起参与创作，就能与社区联动。例如，玩家可以分享自己设计的优秀地图，大家点赞形成排行榜；排行榜前列的地图可作为PvE的关卡Boss，地图作者会很有成就感，因为自己的创作得到了认可并应用到游戏中。而且，这种模式策略性强，防守方和进攻方都是玩家，能带来独特的乐趣。更重要的是，链下游戏可以免费提供给玩家，不用再为月卡纠结。至于运营成本，后面会提到。</p>
+<p>如果能成功建立生态，依靠社区力量，基于NFT还能衍生出多种游戏模式。我想做的链下玩法只是其中之一，其他开发者若有创意，可利用链游的NFT接入系统，自由设计和开发各种玩法。如此一来，这个生态建立后将是所有人共享的。数字世界就该更自由。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="版税机制">版税机制<a href="https://docs.hundao.xyz/blog/why-hun#%E7%89%88%E7%A8%8E%E6%9C%BA%E5%88%B6" class="hash-link" aria-label="版税机制的直接链接" title="版税机制的直接链接">​</a></h3>
+<p>链游模式有个显著优势，它不像传统游戏那样，为了运营和盈利设置大量收费点，如月卡或破坏游戏平衡的道具售卖。链游模式生存压力较小，可通过发币等方式融资。不过，我设计的经济模型无法发币融资，只能先为爱发电，等生态发展起来后，通过版税覆盖开发和运营成本，实现自给自足。</p>
+<p>现有的版税机制一般基于交易抽成。比如A把作品卖给B，抽3成；B再卖给C，又抽3成。每次交易额都要给作者抽成，我觉得这不合理。因为我卖掉作品可能还亏本，但成本部分也被抽成了。</p>
+<p>此外，现有 NFT 人为制造稀缺性，在数字世界明明能无限复制粘贴，却偏要模仿现实世界。所以我设计的经济模型消除了人为稀缺性，作品可无限复制，任何人都能获取。不过稀缺性依然存在，体现在版税最终会回馈给作者。这种稀缺性在于只有作者能获得收益，而作品本身可被无数人拥有。每次复制作品时，会将复制所得的一部分收益直接支付给作者。</p>
+<p>我认为这种模式符合发展规律，未来很可能成为主流，无论是文章、音乐还是画作，或许都会采用这种模式。毕竟躺着赚钱谁不喜欢？人在家中睡，版税从天上来的梦想，从 Hun 开始，人人都能实现！</p>]]></content:encoded>
+            <category>Hun</category>
         </item>
     </channel>
 </rss>
