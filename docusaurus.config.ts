@@ -79,7 +79,7 @@ const config: Config = {
       // title: '主页',
       logo: {
         alt: 'Hun DAO Logo',
-        src: 'img/Logo.svg',  // ✅ SVG 是首选格式，因为它不会失真，并且在任意分辨率下都能保持清晰
+        src: 'img/logo.svg',  // ✅ SVG 是首选格式，因为它不会失真，并且在任意分辨率下都能保持清晰
         srcDark: 'img/logo-dark.svg', // 深色模式 Logo
         // width: 200,  // ✅ 设置宽度
         // height: 32,  // ✅ 设置高度 会被默认32
