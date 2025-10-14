@@ -72,6 +72,19 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'secret', // 你需要为每个实例指定一个唯一的id
+        path: 'secret',
+        routeBasePath: 'secret',
+        sidebarPath: './sidebars.ts',
+        // ... other options
+      },
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
@@ -93,6 +106,7 @@ const config: Config = {
           label: '文档',
         },
         {to: '/blog', label: '博客', position: 'left'},
+        // {to: '/secret/category/不传之密', label: '不传之密', position: 'left'},
         {
           href: 'https://hun.hundao.xyz/overview',
           label: '仪表板',
