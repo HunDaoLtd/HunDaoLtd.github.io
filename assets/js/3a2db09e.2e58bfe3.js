@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[8121],{8070:s=>{s.exports=JSON.parse('{"tags":[{"label":"Insights","permalink":"/blog/tags/insights","count":1},{"label":"Hun","permalink":"/blog/tags/hun","description":"Hun \u662f\u4e00\u6b3e\u533a\u5757\u94fe\u6e38\u620f\uff0c \u4e5f\u662f\u5176\u4e2d NFT \u7684\u540d\u79f0","count":1}]}')}}]);
